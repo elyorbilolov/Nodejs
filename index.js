@@ -1,5 +1,3 @@
-/* jshint esversion: 6 */
-//index.js
 const Logger = require("./logger");
 
 const logger = new Logger();
