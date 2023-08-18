@@ -1,4 +1,4 @@
-/* const url = require("url");
+const url = require("url");
 
 const newUrl = new URL(
   "http://bexruz.ru:5000/user.html?name=Bexruz&status=active&age=24"
@@ -27,7 +27,8 @@ newUrl.searchParams.append("firstName", "Xolmuminov");
 console.log(newUrl.searchParams);
 
 // tsikl
-console.log(newUrl.searchParams.forEach((name, value) => {
+console.log(
+  newUrl.searchParams.forEach((name, value) => {
     console.log(`${value}: ${name}`);
   })
-); */
+);
