@@ -15,4 +15,3 @@ newEmitter.on("hello", () => {
 newEmitter.emit("hello");
 newEmitter.emit("hello");
 newEmitter.emit("hello");
-
